@@ -17,7 +17,73 @@
 </head>
 
 <body>
-   
+    <div id="container">
+        <div id="header">
+            <div>
+                <a href="index.html"><span></span></a>
+                <div class="menu_items right">
+                    <a href="#">마이트립</a>
+                    <img src="image/line_maintop_gray.png" alt="">
+                    <a href="#">회원가입</a>
+                </div>
+            </div>
+        </div>
+        <div id="body">
+            <div id="title_text" class="lg_text">어디로 떠나볼까요?</div>
+            <div id="title_sub_text" class="md_text">where do you want to go?</div>
+            <div id="search_panel">
+                <form action="" id="form_search">
+                    <div class="panel_block">
+                        <label for="from">일정이 언제예요</label>
+                        <div>
+                            <input type="text" id="from" readonly>
+                        </div>
+                    </div>
+                    <div class="panel_block">
+                        <label for="to">언제까지예요?</label>
+                        <div>
+                            <input type="text" id="to" readonly>
+                        </div>
+                    </div>
+                    <div class="panel_block no_margin">
+                        <button type="submit" class="btn_search">
+                            <img src="image/icon_search_on.png" alt="">
+                            검색
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div id="list_bg">
+                <div id="list_panel"></div>
+            </div>
+        </div>
+        <div id="list_item_template" class="list_item">
+            <img class="list_item_image" src="" alt="">
+            <div class="list_item_desc">
+                <div class="list_item_name"></div>
+                <div class="list_item_city">
+                    <img src="image/icon_list_location.png" alt="">
+                    <div class="list_item_city_name"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="list_bg">
+        <div id="list_panel">
+        </div>
+    </div>
+    <div id="list_item_template" class="list_item">
+        <img class="list_item_image" src="" alt="">
+        <div class="list_item_desc">
+            <div class="list_item_name">
+                <div class="list_item_city">
+                    <img src="image/icon_list_location.png" alt="">
+                    <div class="list_item_city_name"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="scripts/main.js"></script>
 </body>
 
